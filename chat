@@ -1,0 +1,195 @@
+When you say **AI search UX**, there are a few directions it can mean — product search (like e-commerce), enterprise knowledge base search, or AI-powered semantic search assistants. The "best" UX patterns tend to balance **user control, transparency, and speed**. Here are the most effective ones across contexts:
+
+----------
+
+### 🔎 Core AI Search UX Principles
+
+1.  **Progressive disclosure**
+    
+    -   Start simple with a single input box.
+        
+    -   Expand into filters, facets, or clarifying questions only if the AI detects ambiguity.
+        
+2.  **Conversational refinement**
+    
+    -   Instead of showing only a static list of results, allow follow-up queries (“show only ones under $500” → system refines without retyping).
+        
+    -   Think **Chat + Search hybrid**.
+        
+3.  **Explainability**
+    
+    -   Highlight _why_ results were shown (matched keywords, semantic similarity, past behavior).
+        
+    -   Use “because you searched for…” or “similar to…” cues.
+        
+4.  **Trust & control**
+    
+    -   Provide options to toggle between “AI summarized” vs. “Raw results.”
+        
+    -   Users should feel they can switch between exploration and exact lookup.
+        
+5.  **Multi-modal search**
+    
+    -   Support text, voice, and image queries.
+        
+    -   Image → product search is now expected in retail (Pinterest, Amazon, Google Lens).
+        
+
+----------
+
+### 🏆 Best-in-Class AI Search UX Patterns
+
+-   **Google Search w/ AI Overview**
+    
+    -   Combines a generated summary on top with traditional results beneath (good fallback, avoids hallucination lock-in).
+        
+-   **Perplexity AI**
+    
+    -   Clear citations inline with generated answers.
+        
+    -   Quick refinement through “related questions.”
+        
+-   **Kagi Search**
+    
+    -   Transparency via result sources, ranking, and filtering.
+        
+    -   Gives the user a sense of _agency_ rather than a black box.
+        
+-   **E-commerce (Amazon, Shopify AI search)**
+    
+    -   Autocomplete + natural language (“show me comfy shoes for walking in Rome in summer”).
+        
+    -   Faceted filters still visible for precision.
+        
+-   **Enterprise Knowledge Bases (Notion AI, Glean)**
+    
+    -   Semantic retrieval (“find the latest Figma component docs from Micha”).
+        
+    -   Inline preview of results so you don’t lose context.
+        
+
+----------
+
+### ⚡ Emerging UX Trends
+
+-   **Conversational Search Agents**: Instead of a static results page, you “chat with your search.”
+    
+-   **Results as Cards, Not Links**: Rich previews, inline actions (open doc, copy code, compare).
+    
+-   **Personalized Ranking**: Search feels “yours” by remembering past queries, role, or context.
+    
+-   **Hybrid UX**: Mix **LLM answer → links → filters** to avoid over-trusting AI.
+    
+
+----------
+
+👉 If you’re building or evaluating:
+
+-   For **e-commerce**, the gold standard is **multi-modal input + AI summarization + traditional filters**.
+    
+-   For **knowledge/enterprise**, it’s **semantic search + conversational refinement + citation transparency**.
+    
+-   For **general web/assistant search**, it’s **summary + citations + fallback to traditional search results**.
+    
+
+----------
+
+Do you want me to **benchmark existing AI search UIs** (screenshots + UX notes, like Perplexity vs Google vs Notion) so you get a design-system style comparison?
+
+##### You said:
+
+What to ask stakeholder during set up mewting
+
+###### ChatGPT said:
+
+Got it — you’re kicking off a **setup meeting with stakeholders** (I assume for a new product, feature, or design system initiative). The goal in that meeting is to:
+
+-   **Align on purpose and goals**
+    
+-   **Understand expectations**
+    
+-   **Surface risks/constraints early**
+    
+-   **Clarify success metrics**
+    
+
+Here’s a structured set of **questions you can ask stakeholders** in a setup meeting:
+
+----------
+
+### 🎯 Vision & Goals
+
+-   What’s the core problem we’re solving with this initiative?
+    
+-   What does success look like for you (short-term and long-term)?
+    
+-   How does this connect to larger business or organizational goals?
+    
+
+----------
+
+### 👥 Stakeholders & Users
+
+-   Who are the main users or beneficiaries?
+    
+-   What pain points do they currently face?
+    
+-   Are there secondary audiences we should keep in mind?
+    
+-   Who are the decision-makers vs. advisors in this project?
+    
+
+----------
+
+### 📊 Success & Metrics
+
+-   How will we measure success (KPIs, adoption, satisfaction, cost savings)?
+    
+-   Is there a deadline or milestone this project needs to align with (e.g. release, audit, leadership review)?
+    
+
+----------
+
+### ⚙️ Process & Collaboration
+
+-   How do you prefer to be updated (reports, demos, workshops)?
+    
+-   How often should we check in?
+    
+-   Are there existing processes or tools we should follow (Jira, Confluence, design review rituals)?
+    
+-   Any known blockers (tech, legal, budget, resources)?
+    
+
+----------
+
+### 📚 Context & History
+
+-   Have we tried solving this before? What worked / didn’t work?
+    
+-   Are there existing research insights, analytics, or competitor benchmarks we should review?
+    
+
+----------
+
+### 🔮 Risks & Concerns
+
+-   What risks worry you the most (adoption, compliance, cost, technical complexity)?
+    
+-   What would make this project fail in your eyes?
+    
+
+----------
+
+### 🧭 Wrap-up
+
+-   If we could only achieve one thing with this project, what should it be?
+    
+-   Is there anything “unspoken” that we should know about the organization, politics, or history of similar projects?
+    
+
+----------
+
+👉 Tip: don’t just make it an interrogation — frame it as a **shared exploration**, so stakeholders feel you’re building together.
+
+Would you like me to **draft a stakeholder meeting template** (agenda + questions + space for notes) that you can reuse, almost like a playbook?
